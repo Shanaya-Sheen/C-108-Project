@@ -1,0 +1,20 @@
+h1{
+    font-family: 'Akshar', sans-serif;
+font-family: 'Indie Flower', cursive;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Square Peg', cursive;}
+
+h3{
+    font-family: 'Akshar', sans-serif;
+font-family: 'Indie Flower', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Quicksand', sans-serif;
+}
+
+body{
+    background: linear-gradient(#ea96ff 0%, #ae00ff 100%);
+}
+
+button{
+    background: linear-gradient(#fe01e5 0%, #560263 100%);
+}

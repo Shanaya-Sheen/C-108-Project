@@ -1,0 +1,46 @@
+<html>
+
+<head>
+  <title>C-106 Project</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Akshar&family=Indie+Flower&family=Quicksand:wght@600&family=Square+Peg&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Akshar&family=Indie+Flower&family=Montserrat:ital,wght@1,500&family=Quicksand:wght@600&family=Square+Peg&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="col-xs-12 header_div text-center">
+    <h1>Note: Play either the sound of meow of a cat or bark of a dog</h1>
+  </div>
+  <div class="main_div">
+    <center>
+      <br>
+      <button class="btn btn-warning" onclick="startClassification()">Just begin!</button>
+      <h3 id="result_label">I hear- </h3>
+      <h3 id="result_confidence">Accuracy/Probability: </h3>
+      <br>
+
+      <img src="eargasm_dribbble.gif" id="ear">
+
+      <span>
+        <img src="5.png" id="cat" width="300" height="300">
+        <img src="pug.jpg" id="dog" width="300" height="300">
+      </span>
+    </center>
+  </div>
+  <div class="copy-right-footer">
+    Developed By- A crazy person
+  </div>
+  <script src="main.js"></script>
+</body>
+
+</html>
